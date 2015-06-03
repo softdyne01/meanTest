@@ -9,7 +9,9 @@
 /**
 * @class ThemeController
 * @memberOf mean.theme
-* @description ThemeController 데이터 추가
+* @description
+* ThemeController 데이터 추가
+* 테마 정보 수정
 */
 angular.module('mean.theme')
 	.controller('ThemeController', ['$scope', 'Global',
