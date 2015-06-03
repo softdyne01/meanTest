@@ -14,6 +14,7 @@ angular.module('mean.admin').controller('ThemesController', ['$scope', 'Global',
                 $scope.themes = data.themes;
             }).
             error(function(data, status, headers, config) {
+                // 에러가 발생하면 처리
                 alert(config.url);
             });
         };
