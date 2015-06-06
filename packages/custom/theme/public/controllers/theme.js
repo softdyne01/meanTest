@@ -2,16 +2,15 @@
 
 /**
 * @namespace mean.theme
-* @author 신창현
+* @author 신창현 <softdyne@daum.net>
 * @copyright softdyne
 */
 
 /**
-* @class ThemeController
-* @memberOf mean.theme
+* @ngdoc controller
+* @name ThemeController
 * @description
-* ThemeController 데이터 추가
-* 테마 정보 수정
+* 	테마 수정
 */
 angular.module('mean.theme')
 	.controller('ThemeController', ['$scope', 'Global',
