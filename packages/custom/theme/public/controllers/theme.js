@@ -10,7 +10,7 @@
 * @ngdoc controller
 * @name ThemeController
 * @description
-* 	테마 수정
+* 	# 테마 수정
 */
 angular.module('mean.theme')
 	.controller('ThemeController', ['$scope', 'Global',
